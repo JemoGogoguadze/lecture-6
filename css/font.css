@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Smokum';
-    src: url('Smokum-Regular.eot');
-    src: url('Smokum-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Smokum-Regular.woff2') format('woff2'),
-        url('Smokum-Regular.woff') format('woff'),
-        url('Smokum-Regular.ttf') format('truetype'),
-        url('Smokum-Regular.svg#Smokum-Regular') format('svg');
+    src: url('../fonts/Smokum-Regular.eot');
+    src: url('../fonts/Smokum-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Smokum-Regular.woff2') format('woff2'),
+        url('../fonts/Smokum-Regular.woff') format('woff'),
+        url('../fonts/Smokum-Regular.ttf') format('truetype'),
+        url('../fonts/Smokum-Regular.svg#Smokum-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
