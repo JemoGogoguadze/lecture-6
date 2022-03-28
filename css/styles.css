@@ -1,0 +1,93 @@
+ul{
+     list-style: none;
+}
+a{
+     text-decoration: none;
+}    
+*{
+     box-sizing: border-box;
+}
+.navbar-li{
+     display: inline-block;
+}
+.header-wrapper{
+     width: 100%;
+     position: fixed; 
+     top: 0px;
+     left: 0px;
+     background-color: palevioletred;
+     padding: 20px;
+     z-index: 10;
+}
+.fixed{
+     width: 100px;
+     height: 100px;
+     border-radius: 20px;
+     background-color: purple;
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+}
+.sticky{
+     position: sticky;
+     top: 0px;
+     left: 50px;
+     font-size: 40px;
+     background-color: blue;
+     z-index: 11;
+}
+.text{
+     color: darkolivegreen;
+     width: 450px;
+     display: inline-block;
+     font-size: 30px;
+     font-family: 'Smokum';
+     background-color: rgba(14, 235, 69, 0.123);
+     margin: 10px;
+}
+.text:first-child{
+     background-color: rgb(18, 155, 18);
+}
+.text:last-child{
+     background-color: rgb(164, 167, 26);
+}
+.text:nth-child(3) {
+     background-color: olivedrab;
+}
+.text:before{
+     content: "";
+     width: 100px;
+     height: 4px;
+     background-color: rgb(14, 88, 88);
+     display: block;
+     border-radius: 10px;
+     margin: 0 auto;
+}
+.text:after{
+     content: "";
+     width: 3px;
+     height: 25px;
+     background-color: slateblue;
+     display: block;
+     border-radius: 10px;
+     margin: 0 auto;
+}
+.text:first-letter{
+     font-size: 60px;
+}
+.wrapper{
+     padding: 90px 0 0;
+     color: rgb(228, 110, 13);
+}
+.skubidu{
+     width: 700px;
+}
+.imagewrapper{
+     background-color: chartreuse;
+     position: relative;
+}
+.image-title{
+     position: absolute;
+     top: 20px;
+     left: 20PX;
+}
